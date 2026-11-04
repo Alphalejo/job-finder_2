@@ -1,0 +1,30 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.jobfinder2/
+
+# Testing & Linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Pipeline State & Outputs
+Data/cache.json
+Data/jobs.json
+Data/legacy.json
+Data/compressed_jobs.json
+Data/approved_jobs.json
+Data/scraper_notifications.json
+Data/tailored_cvs/
+
+# Sensitive User Configs & Security
+Data/users.json
+Data/user_config.json
+Data/profile.yaml
